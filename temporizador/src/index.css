@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -18,15 +19,30 @@ body {
 }
 
 button {
-  border: 4px;
-  padding: 6px;
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  font-Family: 'Poppins';
   cursor: pointer;
-   width: 100%;
-    padding: 6px 10px;
-    border: 1px solid #535439;
-    border-radius: 6px;
-    font-size: 15px;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #ff9033;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(255, 144, 51, 0.35);
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff7d0f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(255, 144, 51, 0.45);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(255, 144, 51, 0.3);
 }
 
 .containerTemporizadorApp {

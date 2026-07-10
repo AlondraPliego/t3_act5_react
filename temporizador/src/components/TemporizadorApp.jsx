@@ -1,3 +1,4 @@
+
 import styles from "./TemporizadorApp.module.css"; 
 import { useState, useEffect } from "react";
 import TemporizadorForm from "./TemporizadorForm";
