@@ -7,7 +7,14 @@
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgba(255, 144, 51, 0.2);
 }
-
+input {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #535439;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
 .noteList {
     list-style: none;
     padding: 20px;

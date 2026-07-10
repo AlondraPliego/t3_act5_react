@@ -32,6 +32,7 @@ Y en un pequeño contador donde se va guardando la cantidad de temporizadores pr
 ## Repositorio de GitHub
 https://github.com/AlondraPliego/t3_act5_react
 ## Enlace de despliegue en GitHub Pages.
+https://alondrapliego.github.io/t3_act5_react/
 ## Referencias
 - https://github.com/dejwid/react-pomodoro-timer/blob/master/src/Timer.js
 - https://dev.to/yuridevat/how-to-create-a-timer-with-react-7b9
