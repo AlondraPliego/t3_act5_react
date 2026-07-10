@@ -1,0 +1,9 @@
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ff9033;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(255, 144, 51, 0.2);
+}

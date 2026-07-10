@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #102f44;
+  color: #fff;
+  font-family: system-ui;
+  height: 100dvh;
+  padding: 0 15px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;     
+  justify-content: center;   
+  align-items: center;    
+}
+
+button {
+  border: 0;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.containerTemporizadorApp {
+  width: 100%;
+  max-width: 800px;
+  margin: 100px auto 0 auto;
+}

@@ -1,0 +1,99 @@
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ff9033;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(255, 144, 51, 0.2);
+}
+
+.noteList {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+.FormularioContenedor{
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;   
+    align-items: center;       
+    background: #ffe74b;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px 23.5px;
+    border-radius: 45px;
+    box-shadow: 0 4px 15px rgba(245, 247, 242, 0.45);
+    width: 90%;
+    max-width: 320px;
+    box-sizing: border-box;
+    text-align: center;      
+}
+.ContenedorGeneral{
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;   
+    align-items: center;       
+    background: #0964b1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px 23.5px;
+    border-radius: 45px;
+    box-shadow: 0 4px 15px rgba(245, 247, 242, 0.45);
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+    max-width: 1000px;
+    box-sizing: border-box;
+    text-align: center;      
+}
+.noteItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1.3em;
+    flex-wrap: wrap;
+}
+
+.iconsContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    svg {
+        cursor: pointer;
+    }
+}
+
+.editForm {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.editInput {
+    width: 100%;
+    padding: 8px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.saveButton, .cancelButton {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.saveButton {
+    background-color: #28a745;
+}
+
+.cancelButton {
+    background-color: #dc3545;
+}
