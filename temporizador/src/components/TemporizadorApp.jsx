@@ -1,4 +1,4 @@
-
+import toast, { Toaster } from 'react-hot-toast';
 import styles from "./TemporizadorApp.module.css"; 
 import { useState, useEffect } from "react";
 import TemporizadorForm from "./TemporizadorForm";
@@ -35,7 +35,7 @@ function TemporizadorApp() {
                     }
                     // Si llegó a cero, deténlo y manda la alerta
                     if (tempo.enMarcha && tempo.segundosRestantes === 0) {
-                        alert(`¡El temporizador "${tempo.texto}" ha terminado! ⏰`);
+                        toast.success(`¡El temporizador "${tempo.texto}" ha terminado! ⏰`);
                         return { ...tempo, enMarcha: false, completado: true };
                     }
                     return tempo;
@@ -88,7 +88,7 @@ function TemporizadorApp() {
                             
                             <Configurador totalSegundos={tempo.segundosRestantes} />
                             
-                            {tempo.completado && <span style={{ color: "red" }}>¡Terminado!</span>}
+                            {tempo.completado && <span className={styles.notelist}>¡Terminado!</span>}
                         </div>
                         
                         <div className={styles.iconsContainer}>

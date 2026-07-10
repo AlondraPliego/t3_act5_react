@@ -41,6 +41,8 @@ input::placeholder {
     list-style: none;
     padding: 20px;
     margin: 0;
+    font-Family: 'Poppins';
+    font-Size: '1rem'; 
 }
 
 .FormularioContenedor{
