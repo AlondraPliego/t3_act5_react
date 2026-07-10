@@ -18,9 +18,15 @@ body {
 }
 
 button {
-  border: 0;
+  border: 4px;
   padding: 6px;
   cursor: pointer;
+   width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #535439;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
 }
 
 .containerTemporizadorApp {
