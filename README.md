@@ -25,6 +25,7 @@ En el componente del formulario, cuando manda a llamar a la funcion agregar temp
 Se utiliza, principalmente para la parte del temporizador, en donde podemos ver que cada vez que se va restando un segundo o cuando presiono el boton de encendido o apagado, automaticamente se modifica el estado del reloj, todo va sucediendo en tiempo real.
 #### Lista renderizada dinámicamente
 Tiene la misma lógica del proyecto base ToDo, en este caso el .map() toma un arreglo de los temporizadores que se van creando y por cada uno lo va añadiendo a la lista con sus respectivos botones. Facilita el no tener que estar creando cada uno de estos manualmente o con un proceso más largo.
+
 ---
 ## Cuestionario
 ## a) ¿Qué diferencia hay entre props y state en React?
