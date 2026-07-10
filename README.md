@@ -10,6 +10,7 @@ Para la creación de este mini proyecto se tomo como base el código del ToDo de
 ### Componentes
 #### Funcional simple
 Como componente funcional simple encontramos al Configurador el cual se encarga de dar un determinado formato para que la presentación sea como la de un reloj, primero calcula la cantidad de minutos completos, después utilizando el operador de modulo toma el resto de segundos que sobran, para que cuando se renderize ambos aparezcan de la siguiente forma.
+
 ![Simple](img/formatoTiempo.png)
 #### Componente que recibe y muestra props
 En el componente del formulario, cuando manda a llamar a la funcion agregar temporizador que se encuentra dentro de la lógica principal del mini proyecto, ya que en este caso le envia los datos que el recibio desde los inputs. Los props tambien suceden en el componente "Configurador" porque recibe la cantidad de segundos totales y en base a esto genera un formato de reloj para el despliegue del tempo.
